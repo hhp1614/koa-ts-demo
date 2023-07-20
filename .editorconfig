@@ -1,0 +1,21 @@
+root = true
+
+[*]
+# 编码
+charset = utf-8
+# 缩进方式
+indent_style = space
+# 缩进宽度
+indent_size = 4
+# 去除行尾空格
+trim_trailing_whitespace = true
+# 文件末尾插入空行
+insert_final_newline = true
+# Unix 风格换行符
+end_of_line = lf
+# 最大行宽
+max_line_length = 120
+
+[*.go]
+# 使用 tab 缩进
+indent_style = tab
